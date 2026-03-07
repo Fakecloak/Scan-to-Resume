@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="title">QR Resume</h1>
+      <div id="statusBadge" class="status-badge hidden">
+        <span class="dot"></span> Resume Ready
+      </div>
+    </div>
+    
+    <div class="content">
+      <p id="pageTitle" class="page-title">Loading...</p>
+      
+      <div class="qr-container">
+        <div id="qrcode" class="qrcode-wrapper">
+          <div class="skeleton"></div>
+        </div>
+      </div>
+      
+      <div class="info-section">
+        <div class="info-item" id="videoInfo">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          <span id="videoTimeText">No video detected</span>
+        </div>
+        <div class="info-item" id="scrollInfo">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
+          <span id="scrollText">Scroll: Top</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <button id="copyBtn" class="primary-btn">
+        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" class="btn-icon"><rect width="13" height="13" x="9" y="9" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+        Copy Resume Link
+      </button>
+    </div>
+  </div>
+
+  <script src="qr.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
