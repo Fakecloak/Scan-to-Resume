@@ -18,13 +18,12 @@ No copying links. No searching again. Just scan and go.
 
 ## Installation
 
-1. Download the latest release.
+1. Download the [latest release](../../releases/latest).
 2. Extract the ZIP.
 3. Open `chrome://extensions`
 4. Enable **Developer mode**.
 5. Click **Load unpacked**.
 6. Select the extracted folder.
-
 ## Best with YouTube
 
 Made for those moments when you're halfway through a video and just don't want to sit at your PC anymore.
